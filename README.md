@@ -52,19 +52,17 @@ The SQL phase focused on identifying churn patterns, high-risk customer segments
 - Promote automatic payment methods
 - Target high-risk customer segments with retention campaigns
 
-## SQL Analysis Results
-
 ### Overall Churn Rate
 
 ![Overall Churn Rate](overall_churn_rate.png)
 
-### Churn by Contract Type
+### Contract Analysis
 
-![Contract Analysis](churn_by_contract_type.png)
+![Contract Analysis](contract_analysis.png)
 
-### Churn by Payment Method
+### Payment Method Analysis
 
-![Payment Analysis](churn_by_payment_method.png)
+![Payment Method Analysis](payment_method_analysis.png)
 
 ### Revenue At Risk
 
@@ -72,4 +70,4 @@ The SQL phase focused on identifying churn patterns, high-risk customer segments
 
 ### High-Risk Customer Profile
 
-![High Risk Profile](high_risk_customer_profile.png)
+![High-Risk Customer Profile](high_risk_customer_profile.png)

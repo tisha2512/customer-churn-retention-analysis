@@ -26,31 +26,26 @@ Completed in Excel:
 - Created Monthly Charge Group
 - Created Churn Value
 
-## Day 2 – SQL Analysis
+## Day 2 - SQL Analysis
 
-The SQL phase focused on identifying churn patterns, high-risk customer segments, and revenue impact.
-
-### Analysis Performed
-
-- Overall churn rate
-- Churn by contract type
-- Churn by payment method
-- Revenue at risk
-- High-risk customer profile analysis
+The SQL phase focused on identifying customer churn patterns, high-risk customer segments and revenue impact.
 
 ### Key Findings
 
-- Overall churn rate: 26.58%
-- Revenue at risk: $139.1K
-- Month-to-month customers showed the highest churn rate (42.71%)
-- Electronic check customers showed the highest churn rate (45.29%)
-- Long-term contracts significantly reduced churn
+- Overall Churn Rate: 26.58%
+- Revenue At Risk: $139.1K
+- Highest Risk Contract: Month-to-Month (42.71%)
+- Highest Risk Payment Method: Electronic Check (45.29%)
 
-### Business Recommendations
+### High-Risk Customer Profile
 
-- Encourage customers to switch to longer-term contracts
-- Promote automatic payment methods
-- Target high-risk customer segments with retention campaigns
+The highest-risk customer segment was:
+
+- Contract Type: Month-to-Month
+- Payment Method: Electronic Check
+- Churn Rate: 53.73%
+
+### SQL Analysis Results
 
 ### Overall Churn Rate
 
@@ -58,11 +53,11 @@ The SQL phase focused on identifying churn patterns, high-risk customer segments
 
 ### Contract Analysis
 
-![Contract Analysis](contract_analysis.png)
+![Contract Analysis](churn_by_contract_type.png)
 
 ### Payment Method Analysis
 
-![Payment Method Analysis](payment_method_analysis.png)
+![Payment Method Analysis](churn_by_payment_method.png)
 
 ### Revenue At Risk
 
